@@ -1,0 +1,129 @@
+
+#katec{
+    background-color: #000000;
+    width: 200px;           
+    height: 100vh;          
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;       
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000000, #1a1a1a);
+    box-shadow: 4px 0 15px rgba(0,0,0,0.3);
+    justify-content: space-between;
+}
+
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+input{
+    padding: 10px;
+    border-top: #000000;
+    border-left: #000000;
+    border-right: #000000;
+
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 0 0 5px #555;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d0e0d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #555555;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+li {
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 2px solid #171616; 
+    border-radius: 10px;    
+    margin-top: 5px;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    margin-top: 40px;
+
+    
+
+}
+span{
+    cursor: pointer;
+}
+
+
+.botao{
+    background-color: #DA6801;
+    margin-top: 30px;
+    width: 150px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: bold;
+   font-family: 'roboto', sans-serif;
+
+}
+
+h1{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #111;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#deletaLista{
+     width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #e53935;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#deletaLista:hover{
+    background: #b71c1c;
+}
